@@ -1,0 +1,26 @@
+.flex-container{
+    display:flex;
+    background-color: rgb(111, 111, 181);
+    flex-direction: row ;
+    flex-flow:row wrap;
+
+}
+.innercontainer{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: gray;
+    background-color:bisque;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.flexcontainer1{
+
+    display:flex;
+    background-color: rgb(42, 148, 102);
+    flex-direction: row ;
+    flex-flow:row wrap;
+    justify-content:space-between;
+}
