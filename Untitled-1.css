@@ -1,0 +1,35 @@
+.gridcontainer{
+    display:inline-grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px auto;
+    background-color: rgb(95, 95, 139);
+    padding: 10px;
+    column-gap:15px;
+    row-gap: 15px;
+
+}
+.gridcontainer > div{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.gridcontainer1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(128, 203, 233);
+    padding: 10px;
+    column-gap:15px;
+    row-gap: 15px;
+
+}
+.gridcontainer1 > div{
+    background-color: rgb(235, 233, 166);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
